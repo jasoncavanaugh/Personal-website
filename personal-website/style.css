@@ -31,13 +31,13 @@ ul {
     margin: 3em;
 }
 
-/* TAB STYLING */
-[data-tab-content] {
+/* TAB FUNCTIONALITY */
+.project-tab-contents[data-tab-content] {
     display: none;
 }
 
-.active[data-tab-content] {
-    display: block;
+.active.project-tab-contents[data-tab-content] {
+    display: flex;
 }
 
 /* PROJECTS NAV-BAR STYLING */ 
@@ -94,9 +94,9 @@ ul {
 }
 
 
-.project-tab-contents {
-
-}
+/* .project-tab-contents {
+    display: flex;
+} */
 
 .project-img:hover {
     transform: scale(1.05);
