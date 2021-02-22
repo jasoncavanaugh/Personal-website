@@ -1,0 +1,128 @@
+/* GENERAL STUFF */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Roboto Slab;
+}
+
+body {
+    background-color: #41b3a3;
+    overflow: scroll; 
+    color: #fff;
+}
+
+
+.introduction {
+    padding-top: 20px;
+    margin: 2em;
+}
+
+span {
+    border: 2px solid aquamarine;
+}
+
+ul {
+    list-style-type: none;
+}
+/* PROJECTS */
+.project-container {
+    margin: 3em;
+}
+
+/* TAB STYLING */
+[data-tab-content] {
+    display: none;
+}
+
+.active[data-tab-content] {
+    display: block;
+}
+
+/* PROJECTS NAV-BAR STYLING */ 
+.project-nav-bar {
+    background-color: #c38d9e;
+    margin: 0;
+}
+
+.project-nav-bar ul {
+    border: solid 2px  #48c7b6;
+    /* padding-top: 1em;
+    padding-bottom: 1em; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-nav-bar li {
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: min(50px, 5%);
+    padding-left: min(50px, 5%);
+}
+
+.project-nav-bar li.active {
+    background-color:rgb(214, 157, 175);
+}
+
+.project-nav-bar li:hover {
+    background-color: rgb(247, 189, 207);
+    cursor: pointer;
+}
+
+/* PROJECT ITEM STYLING */
+.projects {
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-item {
+    border: 2px solid black;
+    margin: 30px;
+}
+
+.project-img-item {
+    display: flex;
+    justify-content: center;
+}
+.project-img {
+    margin: 2em;
+    width: 500px;
+    transition: 0.1s all;
+}
+
+
+.project-tab-contents {
+
+}
+
+.project-img:hover {
+    transform: scale(1.05);
+    box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.project-img:active {
+    transform: scale(0.99);
+}
+
+.project-title {
+    border: 2px solid orange;
+    display: flex;
+    justify-content: center;
+    /* width: 100%;
+    text-align: center; */
+}
+
+
+
+/* FOOTER */
+.footer {
+    background-color: rgba(232, 168, 124);
+ /* #e8a87c; */
+    border: 2px solid white;
+}
+
+/* TYPEMASTER ABOUT PAGE */
+
